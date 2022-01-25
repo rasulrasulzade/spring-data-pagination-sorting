@@ -1,8 +1,8 @@
-# DROP SCHEMA IF EXISTS pagination_sorting_app;
-#
-# CREATE SCHEMA pagination_sorting_app;
+DROP SCHEMA IF EXISTS pagination_sorting_app;
 
-# use pagination_sorting_app;
+CREATE SCHEMA pagination_sorting_app;
+
+use pagination_sorting_app;
 
 DROP TABLE IF EXISTS book;
 
